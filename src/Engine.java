@@ -30,7 +30,7 @@ public class Engine {
 
     @Override
     public String toString() {
-        return "Engine{" + "marca=" + marca + ", potencia=" + potencia + ", axle=" + axle + '}';
+        return "Engine{" + "marca=" + marca + ", potencia=" + potencia + ", axle=" + axle[0] + axle[1] + '}';
     }
     
     

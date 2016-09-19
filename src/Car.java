@@ -30,7 +30,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" + "marca=" + marca + ", front=" + front + ", rear=" + rear + ", m=" + m + '}';
+        return "Car{" + "marca=" + marca + ", front=" + front[0] + front[1] + ", rear=" + rear[0] + rear[1] + ", m=" + m + '}';
     }
     
 
